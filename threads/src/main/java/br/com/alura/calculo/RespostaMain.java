@@ -1,4 +1,4 @@
-package br.com.alura.threads;
+package br.com.alura.calculo;
 
 public class RespostaMain {
 
