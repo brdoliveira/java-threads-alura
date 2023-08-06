@@ -6,21 +6,21 @@ import java.util.concurrent.Callable;
 
 public class ComandoC2ChamaWS implements Callable<String> {
 
-	private PrintStream saida;
+    private PrintStream saida;
 
-	public ComandoC2ChamaWS(PrintStream saida) {
-		this.saida = saida;
-	}
+    public ComandoC2ChamaWS(PrintStream saida) {
+        this.saida = saida;
+    }
 
-	@Override
-	public String call() throws Exception {
-		System.out.println("Servidor recebeu comando c2 - WS");
-		saida.println("Processando comando c2 - WS");
+    @Override
+    public String call() throws Exception {
+        System.out.println("Servidor recebeu comando c2 - WS");
+        saida.println("Processando comando c2 - WS");
 
-		Thread.sleep(15000);
+        Thread.sleep(15000);
 
-		int numero = new Random().nextInt(100) + 1;
-		System.out.println("Servidor finalizou comando c2 - WS");
-		return Integer.toString(numero);
-	}
+        int numero = new Random().nextInt(100) + 1;
+        System.out.println("Servidor finalizou comando c2 - WS");
+        return Integer.toString(numero);
+    }
 }
