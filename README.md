@@ -1,6 +1,6 @@
 # Java Threads
 Thread é uma parte do código que pode ser executada independentemente do programa principal. Por exemplo, um programa pode ter uma thread aberta aguardando um evento específico para ocorrer ou executando um trabalho separado, permitindo que o programa principal execute outras tarefas.
-Esse projeto foi desenvolvido na formação: <a href="https://cursos.alura.com.br/formacao-threads-java">vProgramação paralela com Threads em Java"</a>
+Esse projeto foi desenvolvido na formação: <a href="https://cursos.alura.com.br/formacao-threads-java">Programação paralela com Threads em Java"</a>
 
 ## O que foi aprendido?
 - Processos paralelos
